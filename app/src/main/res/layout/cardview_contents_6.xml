@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F1B599"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/aries"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:adjustViewBounds="true"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/aries"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/ic_baseline_favorite"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="@string/mar_20_apr_19"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/aries_loves_to_be_number_one_so_it_s_no_surprise_that_these_audacious_rams_are_the_first_sign_of_the_zodiac_bold_and_ambitious_aries_dives_headfirst_into_even_the_most_challenging_situations_which_is_appropriate_since_the_body_part_associated_with_aries_is_the_head_like_their_fellow_fire_signs_leo_and_sagittarius_aries_is_a_passionate_motivated_and_confident_leader_who_builds_community_with_their_cheerful_disposition_and_relentless_determination_uncomplicated_and_direct_in_their_approach_they_often_get_frustrated_by_exhaustive_details_and_unnecessary_nuances_they_like_things_quick_and_dirty_a_temperament_also_reflected_in_their_sexual_proclivities"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

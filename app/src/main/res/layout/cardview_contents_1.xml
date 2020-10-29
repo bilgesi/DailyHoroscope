@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorScreen"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/aquarius"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:adjustViewBounds="true"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/aqua"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/ic_baseline_favorite"
+            />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="@string/jan_20_feb_19"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/despite_the_word_aqua_in_its_name_aquarius_is_actually_the_last_air_sign_of_the_zodiac_aquarius_is_represented_by_the_water_bearer_the_mystical_healer_who_bestows_water_or_life_upon_the_land_accordingly_aquarius_is_the_most_humanitarian_astrological_sign_these_revolutionary_thinkers_fervently_support_power_to_the_people_aspiring_to_change_the_world_through_radical_social_progress_every_aquarian_is_a_rebel_at_heart_these_air_signs_despise_authority_and_anything_that_represents_conventionality_free_spirited_and_eccentric_they_can_often_be_identified_by_their_offbeat_fashion_sensibilities_unusual_hobbies_and_nonconformist_attitude"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

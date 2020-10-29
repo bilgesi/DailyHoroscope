@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#E6D8FA"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/pisces"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:adjustViewBounds="true"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/pisces"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/ic_baseline_favorite"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="@string/mar_20_feb_19"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/pisces_a_water_sign_is_the_last_constellation_of_the_zodiac_it_s_symbolized_by_two_fish_swimming_in_opposite_directions_representing_the_constant_division_of_pisces_s_attention_between_fantasy_and_reality_as_the_final_sign_pisces_has_absorbed_every_lesson_the_joys_and_the_pains_the_hopes_and_the_fears_learned_by_all_of_the_other_signs_this_makes_these_fish_the_most_psychic_empathetic_and_compassionate_creatures_of_the_astrological_wheel_with_such_immense_sensitivity_pisces_can_easily_become_swallowed_by_emotions_and_must_remember_to_stay_grounded_in_the_material_realm_appropriately_pisces_rules_the_feet"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

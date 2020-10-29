@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3DCCB"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/virgo"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:adjustViewBounds="true"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/virgo"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/ic_baseline_favorite"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="@string/aug_23_sep_22"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/virgo_is_an_earth_sign_historically_represented_by_the_goddess_of_wheat_and_agriculture_an_association_that_speaks_to_virgo_s_deep_rooted_presence_in_the_material_world_virgos_are_logical_practical_and_systematic_in_their_approach_to_life_this_earth_sign_is_a_perfectionist_at_heart_and_isn_t_afraid_to_improve_skills_through_diligent_and_consistent_practice_virgo_rules_the_digestive_system_which_makes_these_earth_signs_especially_attuned_to_the_ingredients_that_make_up_a_whole_in_food_and_in_everything_else_they_re_hyper_aware_of_every_detail"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

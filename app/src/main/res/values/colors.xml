@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#CDC6A5</color>
+    <color name="colorPrimaryDark">#F0DCCA</color>
+    <color name="colorAccent">#696D7D</color>
+    <color name="colorScreen">#B1DBDD</color>
+
+    <color name="renk">#9A99A4</color>
+    <color name="renk3">#E2AB49</color>
+    <color name="renk4">#E6E6E4</color>
+    <color name="renk2">#756B68</color>
+    <color name="renkn2">#aed9e0</color>
+    <color name="renknn2">#9ec1a3</color>
+
+    <color name="purpnle_200">#264653</color>
+    <color name="purpnle_500">#2A9D8F</color>
+    <color name="purnple_700">#E9C46A</color>
+    <color name="teanl_200">#F4A261</color>
+    <color name="tenal_700">#E76F51</color>
+    <color name="blnack">#CB997E</color>
+    <color name="wnhite">#EDDCD2</color>
+    <color name="colorPnrimary">#FFF1E6</color>
+    <color name="colorPnrimaryDark">#F0EFEB</color>
+    <color name="colorAnccent">#DDBEA9</color>
+    <color name="colorScreenn">#A5A58D</color>
+
+    <color name="renkn">#B7B7A4</color>
+    <color name="renk3n">#D8E2DC</color>
+    <color name="renk4n">#FFE5D9</color>
+    <color name="renk2n">#FFCAD4</color>
+    <color name="renkn2n">#F4ACB7</color>
+    <color name="renknn2n">#9D8189</color>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FDCCB1"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/cancer"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:adjustViewBounds="true"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/cancer"
+       />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/ic_baseline_favorite"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="@string/june_21_july_22"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/cancer_is_a_cardinal_water_sign_represented_by_the_crab_this_oceanic_crustacean_seamlessly_weaves_between_the_sea_and_shore_representing_cancer_s_ability_to_exist_in_both_emotional_and_material_realms_cancers_are_highly_intuitive_and_their_psychic_abilities_manifest_in_tangible_spaces_for_instance_cancers_can_effortlessly_pick_up_the_energies_in_a_room_these_crabs_are_highly_sensitive_to_their_environments_as_well_as_extremely_self_protective_much_like_their_celestial_spirit_animal_cancers_are_shielded_by_hard_external_shells_at_first_these_crabs_may_be_perceived_as_cold_or_distant_with_time_though_cancers_reveal_their_gentle_nature_genuine_compassion_and_mystical_capabilities_just_don_t_be_surprised_if_it_takes_a_while_to_get_to_know_them"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

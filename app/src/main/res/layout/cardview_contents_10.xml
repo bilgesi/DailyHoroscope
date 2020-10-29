@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#65F3DE"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/libra"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:adjustViewBounds="true"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/libra"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/ic_baseline_favorite"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="@string/sep_23_oct_22"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/libra_is_an_air_sign_represented_by_the_scales_interestingly_the_only_inanimate_object_of_the_zodiac_an_association_that_reflects_libra_s_fixation_on_balance_and_harmony_libra_is_obsessed_with_symmetry_and_strives_to_create_equilibrium_in_all_areas_of_life_these_air_signs_are_the_aesthetes_of_the_zodiac_ruled_by_venus_the_planet_that_governs_love_beauty_and_money_libras_adore_high_art_intellectualism_and_connoisseurship_suave_libras_need_to_surround_themselves_with_stunning_objects_and_create_environments_that_reflect_their_exquisite_tastes_accordingly_these_air_signs_make_excellent_designers_decorators_art_critics_and_stylists"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>

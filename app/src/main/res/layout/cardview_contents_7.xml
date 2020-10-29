@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F2FBBE"
+    android:orientation="vertical"
+    android:padding="@dimen/card_padding">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/capricorn"
+        android:textColor="@color/black"
+        android:textSize="32sp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="448dp"
+        android:adjustViewBounds="true"
+        android:scrollbarSize="4dp"
+        app:srcCompat="@drawable/capri"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:adjustViewBounds="false"
+            app:srcCompat="@drawable/ic_baseline_favorite"
+             />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.8"
+            android:text="@string/jan_16_feb_16"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="@string/the_last_earth_sign_of_the_zodiac_capricorn_is_represented_by_the_sea_goat_a_mythological_creature_with_the_body_of_a_goat_and_tail_of_a_fish_accordingly_capricorns_are_skilled_at_navigating_both_the_material_and_emotional_realms_they_scale_the_steepest_mountains_capricorn_rules_the_knees_making_it_easier_for_this_sign_to_climb_while_simultaneously_exploring_their_psychic_strengths_capricorns_tap_into_their_inner_fortitude_to_overcome_whatever_stands_between_them_and_their_long_term_goals_and_they_don_t_let_anything_distract_them_from_getting_ahead_because_of_their_unwavering_focus_however_they_are_often_perceived_as_cold_and_unemotional_sea_goats_must_remember_that_not_every_success_in_life_can_be_featured_on_a_r_sum_and_that_compassion_is_as_important_as_any_professional_advancement"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+</LinearLayout>
